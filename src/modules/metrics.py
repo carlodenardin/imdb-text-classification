@@ -2,6 +2,10 @@ import tensorflow as tf
 
 class Metrics(tf.keras.metrics.Metric):
 
+	"""
+		Not used in the current implementation
+	"""
+
 	def __init__(self, name='metrics', **kwargs):
 		super(Metrics, self).__init__(name=name, **kwargs)
 		self.true_positives = self.add_weight(name='tp', initializer='zeros')

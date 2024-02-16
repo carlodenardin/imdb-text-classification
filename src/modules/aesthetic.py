@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 class Aesthetic:
+	"""
+		TODO: Add documentation
+	"""
 
 	@staticmethod
 	def plot_balance_of_reviews(positive_count, negative_count):
